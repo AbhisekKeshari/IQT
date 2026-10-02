@@ -5,7 +5,6 @@ import torch.nn.functional as F
 import numpy as np
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
-#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
 
 class IQARegression(nn.Module):
     def __init__(self, config):
